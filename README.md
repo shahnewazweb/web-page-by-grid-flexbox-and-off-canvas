@@ -3,7 +3,7 @@
 
 I am a freelance WordPress developer. I am an expert on HTML, CSS, Jquery, javascript, PHP, Theme development, oxygen builder, Elementor pro, Divi theme, and Astra theme
 
-Skills: HTML / CSS/ BOOTSTRAP/ JAVASCRIPT/ PHP/ JQUERY
+Skills: HTML / CSS/ BOOTSTRAP/ JAVASCRIPT/ PHP/ JQUERY/ WordPress/ Elementor/ Oxygenbuilder/ Theme Development/ 
 
 - 🔭 I’m currently working on various freelance market place. 
 - 🌱 I’m currently learning React 
