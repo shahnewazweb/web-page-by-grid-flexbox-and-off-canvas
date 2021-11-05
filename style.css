@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+}
+.grid {
+  display: grid;
+  width: 100%;
+  background: #fff;
+  margin: auto;
+  grid-template-rows: 100px 1fr 1fr 1fr 1fr 100px;
+  grid-template-columns: 2fr 8fr 4fr;
+}
+/*main menu*/
+.logo-humbarg {
+  background: #fff;
+  grid-area: 1/1/2/4;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+a .fa-bars {
+  font-size: 50px;
+}
+.fa.fa-close {
+  font-size: 50px;
+  color:#fff;
+ 
+}
+/*main menu end*/
+
+.menu {
+  background: #1aa3d0;
+  grid-area: 2/1/4/2;
+  
+}
+ul {
+  list-style: none;
+  margin-top: 50px;
+  padding-left: 0px;
+  padding: 20px;
+}
+ul li {
+  padding: 10px;
+}
+ul li a {
+  color: #fff;
+}
+
+/*post start*/
+.post-one {
+  background: red;
+  grid-area: 2/2/4/3;
+  position: relative;
+}
+
+.post-one img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.book1 {
+  position: absolute;
+  bottom: 0px;
+  margin: 5px 10px;
+  color: #fff;
+}
+
+.post-two {
+  background: green;
+  grid-area: 2/3/3/4;
+  position: relative;
+}
+.post-two img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book2 {
+  position: absolute;
+  bottom: 0px;
+  margin: 5px 10px;
+  color: #fff;
+}
+
+.post-three {
+  grid-area: 3/3/4/4;
+  background: blue;
+  position: relative;
+}
+.post-three img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book3 {
+  position: absolute;
+  bottom: 0px;
+  margin: 0px 5px;
+  color: #fff;
+}
+
+.title_filter1 {
+  position: absolute;
+  bottom: 0;
+  background: #1aa3d0;
+  opacity: 50%;
+  width: 100%;
+  height: 22%;
+}
+.title_filter2 {
+  position: absolute;
+  bottom: 0;
+  background: #1aa3d0;
+  opacity: 50%;
+  width: 100%;
+  height: 33%;
+}
+.title_filter3 {
+  position: absolute;
+  bottom: 0;
+  background: #1aa3d0;
+  opacity: 50%;
+  width: 100%;
+  height: 33%;
+}
+/*post end*/
+/*about*/
+.about {
+  padding: 50px 0px;
+  background: rgb(247 247 247);
+  grid-area: 4/1/5/4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detail {
+  flex-basis: 30%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.button {
+  margin-top: 20px;
+  padding: 5px;
+  background: #1AA3D0;
+  border-radius: 10px;
+  width: 100px;
+}
+.button a {
+  display: block;
+  color: #fff;
+  text-align: center;
+}
+/*about*/
+.details {
+  grid-area: 5/1/6/4;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+.details h1 {
+  width: 60%;
+  margin: auto;
+}
+.details p {
+  width: 60%;
+  margin: auto;
+}
+.footer {
+  background: rgb(51, 51, 51);
+  grid-area: 6/1/7/4;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+}
+.social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 10px;
+}
+.rights p {
+  padding-top: 20px;
+  color: #fff;
+}
+.off-canvas-menu{
+  margin-left:-300px;
+}
+.active{
+  margin-left:0px
+}
+
